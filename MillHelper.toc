@@ -1,5 +1,5 @@
-## Interface: 50500, 50501, 50502, 50503, 50504
-## Version: 1.04
+## Interface: 50500, 50501, 50502, 50503, 50504, 50505
+## Version: 1.05
 ## Author: Pirson
 
 
@@ -20,7 +20,7 @@
 ## Notes-zhTW: |cFF33CCFF只需一次點擊即可半自動碾磨草藥。|r
 
 
-## SavedVariables: MillHelperDB
+## SavedVariables: MillHelperSettings
 
 
 ## X-Curse-Project-ID: 1308020

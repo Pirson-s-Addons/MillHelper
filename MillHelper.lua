@@ -4,6 +4,28 @@ _G["MillHelper"] = MH
 
 local L = addonTable.L
 
+local function GetSpellNameSafe(spellID)
+    if C_Spell and C_Spell.GetSpellName then
+        return C_Spell.GetSpellName(spellID)
+    end
+    local name = GetSpellInfo(spellID)
+    return name
+end
+
+local function GetItemInfoSafe(itemID)
+    if C_Item and C_Item.GetItemInfo then
+        return C_Item.GetItemInfo(itemID)
+    end
+    return GetItemInfo(itemID)
+end
+
+local function GetNumBagSlots()
+    if C_Container and C_Container.GetNumBagSlots then
+        return C_Container.GetNumBagSlots()
+    end
+    return NUM_BAG_SLOTS or 4
+end
+
 -- SavedVariables
 MillHelperSettings = MillHelperSettings or { minimap = { hide = false }, showTooltip = true }
 
@@ -149,12 +171,12 @@ end
 -- Escanear inventario
 local function scanInventory()
     local found = {}
-    for bag = 0, NUM_BAG_SLOTS do
+    for bag = 0, GetNumBagSlots() do
         local slots = C_Container.GetContainerNumSlots(bag)
         for slot = 1, slots do
             local info = C_Container.GetContainerItemInfo(bag, slot)
             if info and info.itemID and millableByID[info.itemID] then
-                local name, link = GetItemInfo(info.itemID)
+                local name, link = GetItemInfoSafe(info.itemID)
                 if not name then
                     if info.hyperlink then
                         link = info.hyperlink
@@ -254,7 +276,8 @@ function MH.UpdateUI()
                         end
 
                         if checked then
-                            local spellName = GetSpellInfo(51005) -- Milling
+                            local spellName = GetSpellNameSafe(51005) -- Milling
+                            if not spellName or spellName == "" then spellName = "Milling" end
                             local macroText = "/use "..spellName.."\n/use "..data.name
 
                             if GetMacroIndexByName(macroName) == 0 then

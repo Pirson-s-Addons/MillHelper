@@ -1,5 +1,5 @@
 ## Interface: 30400, 30401, 30402, 30403, 30404, 30405
-## Version: 1.06
+## Version: 1.07
 ## Author: Pirson
 
 

@@ -1,27 +1,102 @@
 ## Interface: 40400, 40401, 40402
-## Version: 1.07
+## Version: 1.08
 ## Author: Pirson
 
+## IconTexture: Interface\AddOns\MillHelper\img\logo_mh
+## Title: |cffd597ffMill Helper|r
 
-## Title: |TInterface/Addons/MillHelper/img/logo_mh:16:16|t |cffd597ffMill Helper|r
-
+# https://warcraft.wiki.gg/wiki/Addon_Categories
+## Category: Professions
+## Category-deDE: Berufe
+## Category-esES: Profesiones
+## Category-esMX: Profesiones
+## Category-frFR: Métiers
+## Category-itIT: Professioni
+## Category-koKR: 전문 기술
+## Category-ptBR: Profissões
+## Category-ruRU: Профессии
+## Category-zhCN: 专业
+## Category-zhTW: 專業技能
+## Category-plPL: Profesje
+## Category-svSE: Yrken
+## Category-noNO: Yrker
+## Category-csCZ: Profese
+## Category-nlNL: Beroepen
+## Category-roRO: Profesii
+## Category-huHU: Szakmák
+## Category-elGR: Επαγγέλματα
+## Category-ukUA: Професії
+## Category-daDK: Erhverv
+## Category-fiFI: Ammatit
+## Category-skSK: Profesie
+## Category-bgBG: Професии
+## Category-hrHR: Profesije
+## Category-srRS: Profesije
+## Category-slSI: Poklici
+## Category-ltLT: Profesijos
+## Category-lvLV: Profesijas
+## Category-etEE: Ametid
+## Category-idID: Profesi
+## Category-msMY: Profesion
+## Category-faIR: حرفه‌ها
+## Category-heIL: מקצועות
+## Category-bnBD: পেশা
+## Category-urPK: پیشے
+## Category-taIN: தொழில்கள்
+## Category-teIN: వృత్తులు
+## Category-trTR: Meslekler
+## Category-jaJP: 専門職
+## Category-arSA: المهن
+## Category-hiIN: पेशे
+## Category-thTH: อาชีพ
+## Category-viVN: Nghề nghiệp
 
 ## Notes: |cFF33CCFFAllows you to mill herbs semi-automatically with just one click.|r
+## Notes-deDE: |cFF33CCFFErmöglicht es dir, Kräuter halbautomatisch mit nur einem Klick zu mahlen.|r
 ## Notes-esES: |cFF33CCFFMuele hierbas de forma semi-automática con solo un clic.|r
 ## Notes-esMX: |cFF33CCFFMuele hierbas de forma semi-automática con solo un clic.|r
-## Notes-deDE: |cFF33CCFFErmöglicht es dir, Kräuter halbautomatisch mit nur einem Klick zu mahlen.|r
 ## Notes-frFR: |cFF33CCFFPermet de broyer des herbes de manière semi-automatique en un seul clic.|r
 ## Notes-itIT: |cFF33CCFFConsente di macinare le erbe in modo semi-automatico con un solo clic.|r
 ## Notes-koKR: |cFF33CCFF단 한 번의 클릭으로 약초를 반자동으로 분쇄할 수 있습니다.|r
 ## Notes-ptBR: |cFF33CCFFPermite moer ervas de forma semi-automática com apenas um clique.|r
-## Notes-ptPT: |cFF33CCFFPermite moer ervas de forma semi-automática com apenas um clique.|r
 ## Notes-ruRU: |cFF33CCFFПозволяет полуавтоматически измельчать травы всего одним кликом.|r
 ## Notes-zhCN: |cFF33CCFF只需一次点击即可半自动研磨草药。|r
 ## Notes-zhTW: |cFF33CCFF只需一次點擊即可半自動碾磨草藥。|r
-
+## Notes-plPL: |cFF33CCFFPozwala mielić zioła półautomatycznie jednym kliknięciem.|r
+## Notes-svSE: |cFF33CCFFLåter dig mala örter halvautomatiskt med ett enda klick.|r
+## Notes-noNO: |cFF33CCFFLar deg male urter halvautomatisk med ett enkelt klikk.|r
+## Notes-csCZ: |cFF33CCFFUmožňuje mlít byliny poloautomaticky jediným kliknutím.|r
+## Notes-nlNL: |cFF33CCFFLaat je kruiden halfautomatisch vermalen met één klik.|r
+## Notes-roRO: |cFF33CCFFÎți permite să macini ierburi semiautomat cu un singur clic.|r
+## Notes-huHU: |cFF33CCFFLehetővé teszi a gyógynövények félautomata őrlését egyetlen kattintással.|r
+## Notes-elGR: |cFF33CCFFΣου επιτρέπει να αλέθεις βότανα ημιαυτόματα με ένα μόνο κλικ.|r
+## Notes-ukUA: |cFF33CCFFДає змогу подрібнювати трави напівавтоматично одним кліком.|r
+## Notes-daDK: |cFF33CCFFLader dig male urter halvautomatisk med et enkelt klik.|r
+## Notes-fiFI: |cFF33CCFFVoit jauhaa yrttejä puoliautomaattisesti yhdellä napsautuksella.|r
+## Notes-skSK: |cFF33CCFFUmožňuje mlieť byliny poloautomaticky jediným kliknutím.|r
+## Notes-bgBG: |cFF33CCFFПозволява ти да смилаш билки полуавтоматично с едно щракване.|r
+## Notes-hrHR: |cFF33CCFFOmogućuje poluautomatsko mljevenje bilja jednim klikom.|r
+## Notes-srRS: |cFF33CCFFOmogućava poluautomatsko mlevenje bilja jednim klikom.|r
+## Notes-slSI: |cFF33CCFFOmogoča polsamodejno mletje zelišč z enim klikom.|r
+## Notes-ltLT: |cFF33CCFFLeidžia pusiau automatiškai malti žoleles vienu paspaudimu.|r
+## Notes-lvLV: |cFF33CCFFĻauj pusautomātiski malt augus ar vienu klikšķi.|r
+## Notes-etEE: |cFF33CCFFVõimaldab ürte poolautomaatselt jahvatada ühe klõpsuga.|r
+## Notes-idID: |cFF33CCFFMemungkinkanmu menggiling tanaman obat secara semi-otomatis hanya dengan satu klik.|r
+## Notes-msMY: |cFF33CCFFMembolehkan anda mengisar herba secara separa automatik dengan satu klik.|r
+## Notes-faIR: |cFF33CCFFبه شما امکان می‌دهد گیاهان را نیمه‌خودکار و فقط با یک کلیک آسیاب کنید.|r
+## Notes-heIL: |cFF33CCFFמאפשר לטחון עשבים באופן חצי-אוטומטי בלחיצה אחת.|r
+## Notes-bnBD: |cFF33CCFFমাত্র এক ক্লিকে আধা-স্বয়ংক্রিয়ভাবে ভেষজ পেষাই করতে দেয়।|r
+## Notes-urPK: |cFF33CCFFصرف ایک کلک سے جڑی بوٹیاں نیم خودکار طریقے سے پیسنے دیتا ہے۔|r
+## Notes-taIN: |cFF33CCFFஒரே கிளிக்கில் மூலிகைகளை அரை-தானியங்கியாக அரைக்க அனுமதிக்கிறது.|r
+## Notes-teIN: |cFF33CCFFఒకే క్లిక్‌తో మూలికలను సెమీ-ఆటోమేటిక్‌గా పిండి చేయడానికి అనుమతిస్తుంది.|r
+## Notes-trTR: |cFF33CCFFTek tıkla bitkileri yarı otomatik öğütmeni sağlar.|r
+## Notes-jaJP: |cFF33CCFFワンクリックでハーブを半自動で製粉できます。|r
+## Notes-arSA: |cFF33CCFFيتيح لك طحن الأعشاب بشكل شبه تلقائي بنقرة واحدة فقط.|r
+## Notes-hiIN: |cFF33CCFFसिर्फ़ एक क्लिक से जड़ी-बूटियाँ अर्ध-स्वचालित रूप से पीसने देता है।|r
+## Notes-thTH: |cFF33CCFFบดสมุนไพรแบบกึ่งอัตโนมัติได้ด้วยการคลิกเพียงครั้งเดียว|r
+## Notes-viVN: |cFF33CCFFCho phép nghiền thảo dược bán tự động chỉ với một cú nhấp.|r
 
 ## SavedVariables: MillHelperSettings
-
 
 ## X-Curse-Project-ID: 1339466
 
@@ -29,6 +104,25 @@ Libs/LibStub/LibStub.lua
 Libs/LibDataBroker-1.1/LibDataBroker-1.1.lua
 Libs/LibDBIcon-1.0/LibDBIcon-1.0.lua
 
-Locales.lua
-MillHelper.lua
-MinimapButton.lua
+Locales/enUS.lua
+Locales/esES.lua
+Locales/deDE.lua
+Locales/frFR.lua
+Locales/itIT.lua
+Locales/ptBR.lua
+Locales/ruRU.lua
+Locales/koKR.lua
+Locales/zhCN.lua
+Locales/zhTW.lua
+Locales/plPL.lua
+Locales/svSE.lua
+Locales/noNO.lua
+Locales/trTR.lua
+Locales/jaJP.lua
+Locales/arSA.lua
+Locales/hiIN.lua
+Locales/thTH.lua
+Locales/viVN.lua
+Locales/csCZ.lua
+Core/MillHelper.lua
+UI/MinimapButton.lua

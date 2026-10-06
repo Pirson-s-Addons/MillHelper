@@ -1,5 +1,5 @@
 ## Interface: 40400, 40401, 40402
-## Version: 1.08
+## Version: 1.09
 ## Author: Pirson
 
 ## IconTexture: Interface\AddOns\MillHelper\img\logo_mh

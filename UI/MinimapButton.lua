@@ -1,7 +1,6 @@
 local addonName, addonTable = ...
 local L = addonTable.L
 local icon = LibStub("LibDBIcon-1.0", true)
-local settings = MillHelperSettings or { minimap = { hide = false } }
 
 -- Obtiene la UI del addon
 local function GetUI()
@@ -46,9 +45,13 @@ local LDB = LibStub("LibDataBroker-1.1"):NewDataObject("MillHelper", {
 })
 
 -- Inicializa el minimap button
+-- Los ajustes guardados se leen aqui y no al cargar el fichero: el juego los
+-- restaura despues de ejecutar los ficheros del addon.
 local function MillHelper_InitMinimap()
+    MillHelperSettings = MillHelperSettings or {}
+    MillHelperSettings.minimap = MillHelperSettings.minimap or { hide = false }
     if icon and not icon:IsRegistered("MillHelper") then
-        icon:Register("MillHelper", LDB, settings.minimap)
+        icon:Register("MillHelper", LDB, MillHelperSettings.minimap)
     end
 end
 

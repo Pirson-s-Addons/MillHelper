@@ -1,5 +1,5 @@
 ## Interface: 30400, 30401, 30402, 30403, 30404, 30405
-## Version: 1.08
+## Version: 1.09
 ## Author: Pirson
 
 ## IconTexture: Interface\AddOns\MillHelper\img\logo_mh

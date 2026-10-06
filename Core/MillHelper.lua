@@ -210,7 +210,7 @@ function MH.UpdateUI()
     local found = scanInventory()
     local itemsByExpansion = {}
     for id, data in pairs(found) do
-        local exp = expansionByID[id] or L["Other"]
+        local exp = L[expansionByID[id] or "Other"]
         itemsByExpansion[exp] = itemsByExpansion[exp] or {}
         table.insert(itemsByExpansion[exp], {id = id, name = data.name, link = data.link, count = data.count})
     end

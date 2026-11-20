@@ -19,3 +19,12 @@ L["Wrath of the Lich King"] = "리치 왕의 분노"
 L["Cataclysm"] = "대격변"
 L["Mists of Pandaria"] = "판다리아의 안개"
 L["Other"] = "기타"
+
+-- Navegacion con mando (UI/GamepadNav.lua)
+L["PAD_MOVE"] = "이동"
+L["PAD_SELECT"] = "선택"
+L["PAD_TOGGLE"] = "체크"
+L["PAD_CLOSE"] = "닫기"
+L["PAD_BACK"] = "뒤로"
+L["PAD_CLOSE_MENU"] = "메뉴 닫기"
+L["PAD_SCROLL"] = "스크롤"

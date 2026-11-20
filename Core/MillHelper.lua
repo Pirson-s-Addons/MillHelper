@@ -139,6 +139,7 @@ local expansionByID = {
 
 -- Crear UI
 local ui
+local secureCount = 0 -- botones seguros creados (para darles nombre)
 local function CreateUI()
     ui = CreateFrame("Frame", "MillHelperFrame", UIParent, "BasicFrameTemplateWithInset")
     ui:SetSize(320, 400)
@@ -166,6 +167,7 @@ local function CreateUI()
     ui.entries = {}
 
     addonTable.uiFrame = ui
+    addonTable.GamepadNavFor(ui) -- con mando, sus botones son de la ventana (UI/GamepadNav.lua)
 end
 
 -- Escanear inventario
@@ -245,7 +247,9 @@ function MH.UpdateUI()
                 entry.checkbox = cb
 
                 -- Botón Moler
-                local btn = CreateFrame("Button", nil, ui.content, "SecureActionButtonTemplate")
+                -- Con nombre: con mando, A pulsa este boton directamente (UI/GamepadNav.lua)
+                secureCount = secureCount + 1
+                local btn = CreateFrame("Button", "MillHelperButton" .. secureCount, ui.content, "SecureActionButtonTemplate")
                 btn:RegisterForClicks("AnyUp", "AnyDown")
                 btn:SetSize(24, 24)
                 btn:SetPoint("RIGHT", cb, "RIGHT", 200, 0)

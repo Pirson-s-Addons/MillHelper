@@ -19,3 +19,12 @@ L["Wrath of the Lich King"] = "Wrath of the Lich King"
 L["Cataclysm"] = "Cataclysm"
 L["Mists of Pandaria"] = "Mists of Pandaria"
 L["Other"] = "อื่นๆ"
+
+-- Navegacion con mando (UI/GamepadNav.lua)
+L["PAD_MOVE"] = "เคลื่อนที่"
+L["PAD_SELECT"] = "เลือก"
+L["PAD_TOGGLE"] = "ติ๊ก"
+L["PAD_CLOSE"] = "ปิด"
+L["PAD_BACK"] = "ย้อนกลับ"
+L["PAD_CLOSE_MENU"] = "ปิดเมนู"
+L["PAD_SCROLL"] = "เลื่อน"

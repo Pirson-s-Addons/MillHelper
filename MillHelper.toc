@@ -1,5 +1,5 @@
 ## Interface: 50500, 50501, 50502, 50503, 50504, 50505
-## Version: 1.09
+## Version: 1.10
 ## Author: Pirson
 
 ## IconTexture: Interface\AddOns\MillHelper\img\logo_mh
@@ -129,5 +129,6 @@ Locales/hiIN.lua
 Locales/thTH.lua
 Locales/viVN.lua
 Locales/csCZ.lua
+UI/GamepadNav.lua
 Core/MillHelper.lua
 UI/MinimapButton.lua

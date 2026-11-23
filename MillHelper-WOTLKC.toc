@@ -99,6 +99,7 @@
 ## SavedVariables: MillHelperSettings
 
 ## X-Curse-Project-ID: 1339466
+## X-Wago-ID: nKWwaqKE
 ## X-License: MIT
 ## X-Copyright: Copyright (c) 2025-2026 Pirson
 ## X-Website: https://github.com/Pirson-s-Addons/MillHelper
